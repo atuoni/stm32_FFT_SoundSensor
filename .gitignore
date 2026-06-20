@@ -1,0 +1,64 @@
+# =============================================================================
+# .gitignore para projetos STM32CubeIDE / STM32CubeMX
+# =============================================================================
+
+# --- Diretórios de build/compilação ---
+Debug/
+Release/
+build/
+cmake-build-*/
+
+# --- Arquivos de objeto e binários gerados ---
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.list
+*.su
+*.d
+*.dep
+
+# --- Arquivos do Eclipse/STM32CubeIDE (configurações locais) ---
+.metadata/
+.settings/
+.cproject
+.project
+.mxproject
+
+# --- Arquivos de cache do CubeMX ---
+*.ioc.bak
+
+# --- Arquivos temporários do editor ---
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Arquivos de log ---
+*.log
+
+# --- Pastas de configuração de IDEs alternativas ---
+.vscode/
+.idea/
+*.iml
+
+# --- Arquivos gerados por ferramentas de análise estática ---
+*.gcno
+*.gcda
+
+# --- Backup de arquivos ---
+*.bak
+*.orig
+
+# --- Arquivos específicos de sistema operacional ---
+desktop.ini
+
+# --- Pastas de scripts gerados automaticamente (se usar STM32CubeProgrammer) ---
+*.cube
+
+# --- Não ignorar arquivos essenciais mesmo que correspondam aos padrões acima ---
+!.gitkeep
