@@ -126,6 +126,19 @@ O KY-037 gera um sinal com offset de tensão (tipicamente próximo de 1,65V). An
 - Sem janelamento (window function) aplicado — pode haver vazamento espectral em sinais não periódicos dentro da janela de amostragem
 
 ---
+## Video
+
+Click the image below to watch the project demonstration.
+
+<p align="center">
+  <a href="https://youtu.be/nDVOEo5WYgo">
+    <img src="https://img.youtube.com/vi/nDVOEo5WYgo/0.jpg" width="600">
+  </a>
+</p>
+
+## Author
+
+Amauri Tuoni
 
 ## 📄 Licença
 
